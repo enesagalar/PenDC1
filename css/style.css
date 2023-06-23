@@ -3,6 +3,9 @@
   padding: 0px;
   margin: 0px;
 }
+body{
+  overflow-x: hidden;
+}
 .nav-link {
     color:black !important;
     font-size: medium;
