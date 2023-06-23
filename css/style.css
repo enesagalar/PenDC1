@@ -810,35 +810,55 @@ body, html {
 }
 
 @media (max-width: 768px) {
+  .yaziarkaplan{
+    width: 100%;
+    justify-content: center;
+  }
+  .pendcbaslik{
+  margin-left: 20px;
+  }
+  .teknikdestekyazi{
+  margin-left: 20px;
+    
+  }
   .bilgi-buton {
-    margin-left: 20%;
+    width: 93%;
+    margin-left: 20px;
+    justify-items: center;
   }
 
   .hizmet-buton {
+    width: 93%;
+    margin-left: 20px;
     margin-top: 40px;
-    margin-left: 20%;
+  }
+  .sagresim{
+    margin-left: 50px;
   }
 
   .neleryeni {
-    margin-left: 13px;
+    margin-left: 33px;
   }
 
   .cizgi {
-    width: 332px;
-    margin-left: 13px;
+    text-align: center;
+    width: 401px;
+    margin-left: 33px;
   }
 
   .solkart {
+    margin-left: 20px;
     margin-bottom: -60px;
   }
 
   .ortakart {
+    margin-left: 20px;
     margin-bottom: -60px;
 
   }
-
-  .sagkart {}
-
+  .sagkart{
+    margin-left: 20px;
+  }
   .cozumlerbaslik {
     line-height: 65px;
     letter-spacing: 5px;
@@ -849,13 +869,13 @@ body, html {
   }
 
   .hizmet-cozumler-buton {
+    width: 100%;
     margin-top: 10px;
-    margin-left: 20%;
   }
 
   .ayricak-buton {
+    width: 100%;
     margin-top: 40px;
-    margin-left: 20%;
   }
 
   .kurumsalbaslik {
@@ -868,9 +888,11 @@ body, html {
   }
 
   .kurumsal-buton {
-    margin-bottom: -150px;
-    width: 60%;
-    margin-left: 15%;
+    margin-top: -5px;
+    width: 100%;
+  }
+  .fikir{
+    margin-top: 60px;
   }
 
   .fikiryazi {
@@ -894,10 +916,12 @@ body, html {
   }
 
   .urun-fiyat {
+    margin-left: 100px;
     margin-top: 40px;
   }
 
   .urun-fiyat-orta {
+    margin-left: 100px;
     margin-top: -40px !important;
   }
 
