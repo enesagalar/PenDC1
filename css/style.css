@@ -187,8 +187,8 @@ margin-top: 2em;
   width: 485px;
 }
 .sagresim{
-  height: 100%;
-  width: 100%;
+  height: 80%;
+  width: 80%;
   filter: drop-shadow(0px 8px 20px #E2DFDF);
   border-radius: 53px;
 }
@@ -199,7 +199,7 @@ margin-top: 2em;
   justify-content: left;
   margin-right: 290px;
   margin-top: 6em;
-  width: 350px;
+  width: 335px;
   height: 150px;
   background: #E2DFDF;
   border-radius: 32px;
@@ -211,7 +211,7 @@ margin-top: 2em;
 .solkart .solkartbaslik{
   margin-top: 20px;
   position: absolute;
-  margin-left: 160px;
+  margin-left: 140px;
 }
 .solkart .solkartyazi{
   margin-top: 50px;
@@ -223,7 +223,7 @@ margin-top: 2em;
   color: #363D4B;
   line-height: 16px;
   position: absolute;
-  margin-left: 160px;
+  margin-left: 140px;
 }
 .solkart .solkartlink{
   position: absolute;
@@ -232,7 +232,7 @@ margin-top: 2em;
   font-weight: 500;
   font-size: 10px;
   line-height: 16px;
-  margin-left: 160px;
+  margin-left: 140px;
   margin-top: 120px;
 }
 
@@ -241,7 +241,7 @@ margin-top: 2em;
   align-items: left;
   justify-content: left;
   margin-top: 6em;
-  width: 350px;
+  width: 335px;
   height: 150px;
   background: #E2DFDF;
   border-radius: 32px;
@@ -253,7 +253,7 @@ margin-top: 2em;
 .ortakart .ortakartbaslik{
   margin-top: 20px;
   position: absolute;
-  margin-left: 160px;
+  margin-left: 140px;
 }
 .ortakart .ortakartyazi{
   margin-top: 50px;
@@ -265,7 +265,7 @@ margin-top: 2em;
   color: #363D4B;
   line-height: 16px;
   position: absolute;
-  margin-left: 160px;
+  margin-left: 140px;
 }
 .ortakart .ortakartlink{
   position: absolute;
@@ -274,7 +274,7 @@ margin-top: 2em;
   font-weight: 500;
   font-size: 10px;
   line-height: 16px;
-  margin-left: 160px;
+  margin-left: 140px;
   margin-top: 120px;
 }
 .sagkart{
@@ -282,7 +282,7 @@ margin-top: 2em;
   align-items: left;
   justify-content: left;
   margin-top: 6em;
-  width: 350px;
+  width: 335px;
   height: 150px;
   background: #E2DFDF;
   border-radius: 32px;
@@ -294,7 +294,7 @@ margin-top: 2em;
 .sagkart .sagkartbaslik{
   margin-top: 20px;
   position: absolute;
-  margin-left: 160px;
+  margin-left: 140px;
 }
 .sagkart .sagkartyazi{
   margin-top: 50px;
@@ -306,7 +306,7 @@ margin-top: 2em;
   color: #363D4B;
   line-height: 16px;
   position: absolute;
-  margin-left: 160px;
+  margin-left: 140px;
 }
 .sagkart .sagkartlink{
   position: absolute;
@@ -315,7 +315,7 @@ margin-top: 2em;
   font-weight: 500;
   font-size: 10px;
   line-height: 16px;
-  margin-left: 160px;
+  margin-left: 140px;
   margin-top: 120px;
 }
 .hizmet-cozumler-buton{
@@ -640,7 +640,6 @@ margin-top: 14em;
   color: #363D4B;
 }
 .urun-fiyat{
-  margin-left: 30px;
   justify-content: center;
   margin-top: 5em;
   width: 330px;
@@ -698,7 +697,6 @@ margin-top: 14em;
 
 }
 .urun-fiyat-orta{
-  margin-left: 30px;
   justify-content: center;
   margin-top: 5em;
   width: 330px;
@@ -729,19 +727,18 @@ margin-top: 14em;
     margin-left: 13px;
   }
   .cizgi{
-    width: 485px;
+    width: 332px;
     margin-left: 13px;
   }
   .solkart{
     margin-bottom: -60px;
-    margin-left: 15%;
   }
   .ortakart{
     margin-bottom: -60px;
-    margin-left: 15%;
+
   }
   .sagkart{
-    margin-left: 15%;
+
   }
   .cozumlerbaslik{
     line-height: 65px;
@@ -789,11 +786,9 @@ margin-top: 14em;
   }
   .urun-fiyat {
     margin-top: 40px;
-    margin-left: 15%;
   }
   .urun-fiyat-orta{
     margin-top: -40px !important;
-    margin-left: 15%;
   }
 
 }
