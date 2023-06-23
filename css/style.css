@@ -814,6 +814,9 @@ body, html {
     width: 100%;
     justify-content: center;
   }
+  .solyazi{
+    font-size: 10px;
+  }
   .pendcbaslik{
   margin-left: 20px;
   }
