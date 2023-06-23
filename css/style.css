@@ -1,78 +1,89 @@
-*{
-  border:0px;
+* {
+  border: 0px;
   padding: 0px;
   margin: 0px;
 }
-body{
-  overflow-x: hidden;
+
+body {
+  overflow-x: hidden !important;
 }
+
 .nav-link {
-    color:black !important;
-    font-size: medium;
-    margin-left: 3vw;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  }
-  .nav-link:hover{
-    text-decoration-line: underline !important;
-    color: #f27405 !important;
-  }
-  .musteripaneli{
-    font-size: small;
-    font-family: 'Rubik';
-    border-color: #f27405;
-    color: #f27405;
-    background-color: white;
-    float: right;
-    padding: 12px;
-    transition: .3s;
-  }
-  .musteripaneli:hover{
-    color: white;
-    background-color: #f27405;
-    transition: .7s;
-  }
-  .top-info{
-    font-size: small;
-    font-weight: 500;
-    justify-content: center;
-    color: black !important;
-    padding: 4px;
-  }
-  .top-info a{
-    color: black !important;
-  }
-  .ikontel{
-    font-size: large;
-    color: darkslategray !important;
-    margin-right: 3px;
-    margin-left: 3px;
-  }
-  .ikonmail{
-    font-size: large;
-    color: darkslategray !important;
-    margin-right: 3px;
-    margin-left: 3px;
-  }
-  .sol{
-    margin-top: 5vw;
-  }
+  color: black !important;
+  font-size: medium;
+  margin-left: 3vw;
+  display: flex;
+  align-items: center;
+  text-align: center;
 
-  .sag{
-    margin-top: 5vw;
-  }
-
-.yaziarkaplan{
-    color: #fff;
-    padding: 15px;
-    margin: 0px 50px 50px 0px;
-    margin-bottom: 10px;
-    background-color: #363D4B;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.sol .yaziarkaplan .solyazi{
+
+.nav-link:hover {
+  text-decoration-line: underline !important;
+  color: #f27405 !important;
+}
+
+.musteripaneli {
+  font-size: small;
+  font-family: 'Rubik';
+  border-color: #f27405;
+  color: #f27405;
+  background-color: white;
+  float: right;
+  padding: 12px;
+  transition: .3s;
+}
+
+.musteripaneli:hover {
+  color: white;
+  background-color: #f27405;
+  transition: .7s;
+}
+
+.top-info {
+  font-size: small;
+  font-weight: 500;
+  justify-content: center;
+  color: black !important;
+  padding: 4px;
+}
+
+.top-info a {
+  color: black !important;
+}
+
+.ikontel {
+  font-size: large;
+  color: darkslategray !important;
+  margin-right: 3px;
+  margin-left: 3px;
+}
+
+.ikonmail {
+  font-size: large;
+  color: darkslategray !important;
+  margin-right: 3px;
+  margin-left: 3px;
+}
+
+.sol {
+  margin-top: 5vw;
+}
+
+.sag {
+  margin-top: 5vw;
+}
+
+.yaziarkaplan {
+  color: #fff;
+  padding: 15px;
+  margin: 0px 50px 50px 0px;
+  margin-bottom: 10px;
+  background-color: #363D4B;
+}
+
+.sol .yaziarkaplan .solyazi {
   color: white;
   display: flex;
   justify-content: center;
@@ -83,11 +94,11 @@ body{
   font-weight: bold;
 }
 
-.pendcbaslik{
+.pendcbaslik {
   margin-top: 2em;
 }
 
-.pendcbaslik .pendcbaslikyazi{
+.pendcbaslik .pendcbaslikyazi {
 
   font-family: 'Rubik';
   font-style: normal;
@@ -98,11 +109,12 @@ body{
   text-transform: uppercase;
 }
 
-.teknikdestekyazi{
+.teknikdestekyazi {
   margin-top: 3em;
 }
-.teknikdestekyazi .teknikdestekyazikucuk{
-  
+
+.teknikdestekyazi .teknikdestekyazikucuk {
+
   font-family: 'Rubik';
   font-style: normal;
   font-weight: 500;
@@ -111,10 +123,12 @@ body{
   text-transform: uppercase;
   color: #363D4B;
 }
-.butonlar{
-margin-top: 2em;
+
+.butonlar {
+  margin-top: 2em;
 }
-.ayricak-buton{
+
+.ayricak-buton {
   width: 70%;
   font-size: small;
   font-family: 'Rubik';
@@ -122,9 +136,10 @@ margin-top: 2em;
   color: #f27405;
   background-color: white;
   padding: 13px;
-  transition: .4s; 
+  transition: .4s;
 }
-.ayricak-buton:hover{
+
+.ayricak-buton:hover {
   margin-right: 130px;
   font-size: small;
   font-family: 'Rubik';
@@ -134,7 +149,8 @@ margin-top: 2em;
   padding: 13px;
   transition: .7s;
 }
-.hizmet-buton{
+
+.hizmet-buton {
   width: 75%;
   font-size: small;
   font-family: 'Rubik';
@@ -144,7 +160,8 @@ margin-top: 2em;
   padding: 13px;
   transition: .4s;
 }
-.hizmet-buton:hover{
+
+.hizmet-buton:hover {
   margin-right: 130px;
   font-size: small;
   font-family: 'Rubik';
@@ -154,7 +171,8 @@ margin-top: 2em;
   padding: 13px;
   transition: .7s;
 }
-.bilgi-buton{
+
+.bilgi-buton {
   width: 75%;
   font-size: small;
   font-family: 'Rubik';
@@ -164,7 +182,8 @@ margin-top: 2em;
   padding: 11px;
   transition: .4s;
 }
-.bilgi-buton:hover{
+
+.bilgi-buton:hover {
   font-size: small;
   font-family: 'Rubik';
   border-color: #f27405;
@@ -173,30 +192,34 @@ margin-top: 2em;
   padding: 11px;
   transition: .7s;
 }
-.neleryenicon{
+
+.neleryenicon {
   margin-top: 60px;
 }
-.neleryeni{
- 
+
+.neleryeni {
+
   font-family: 'Rubik';
   font-style: normal;
   font-weight: 600;
   font-size: 26px;
   line-height: 16px;
 }
-.cizgi{
+
+.cizgi {
   position: absolute;
   border: 3px solid #363D4B;
   width: 485px;
 }
-.sagresim{
+
+.sagresim {
   height: 80%;
   width: 80%;
   filter: drop-shadow(0px 8px 20px #E2DFDF);
   border-radius: 53px;
 }
 
-.solkart{
+.solkart {
   display: flex;
   align-items: left;
   justify-content: left;
@@ -207,16 +230,19 @@ margin-top: 2em;
   background: #E2DFDF;
   border-radius: 32px;
 }
-.solkart .solkartresim{
+
+.solkart .solkartresim {
   max-width: 100%;
   max-height: 100%;
 }
-.solkart .solkartbaslik{
+
+.solkart .solkartbaslik {
   margin-top: 20px;
   position: absolute;
   margin-left: 140px;
 }
-.solkart .solkartyazi{
+
+.solkart .solkartyazi {
   margin-top: 50px;
   font-family: 'Rubik';
   font-style: normal;
@@ -228,7 +254,8 @@ margin-top: 2em;
   position: absolute;
   margin-left: 140px;
 }
-.solkart .solkartlink{
+
+.solkart .solkartlink {
   position: absolute;
   font-family: 'Rubik';
   font-style: normal;
@@ -239,7 +266,7 @@ margin-top: 2em;
   margin-top: 120px;
 }
 
-.ortakart{
+.ortakart {
   display: flex;
   align-items: left;
   justify-content: left;
@@ -249,16 +276,19 @@ margin-top: 2em;
   background: #E2DFDF;
   border-radius: 32px;
 }
-.ortakart .ortakartresim{
+
+.ortakart .ortakartresim {
   max-width: 100%;
   max-height: 100%;
 }
-.ortakart .ortakartbaslik{
+
+.ortakart .ortakartbaslik {
   margin-top: 20px;
   position: absolute;
   margin-left: 140px;
 }
-.ortakart .ortakartyazi{
+
+.ortakart .ortakartyazi {
   margin-top: 50px;
   font-family: 'Rubik';
   font-style: normal;
@@ -270,7 +300,8 @@ margin-top: 2em;
   position: absolute;
   margin-left: 140px;
 }
-.ortakart .ortakartlink{
+
+.ortakart .ortakartlink {
   position: absolute;
   font-family: 'Rubik';
   font-style: normal;
@@ -280,7 +311,8 @@ margin-top: 2em;
   margin-left: 140px;
   margin-top: 120px;
 }
-.sagkart{
+
+.sagkart {
   display: flex;
   align-items: left;
   justify-content: left;
@@ -290,16 +322,19 @@ margin-top: 2em;
   background: #E2DFDF;
   border-radius: 32px;
 }
-.sagkart .sagkartresim{
+
+.sagkart .sagkartresim {
   max-width: 100%;
   max-height: 100%;
 }
-.sagkart .sagkartbaslik{
+
+.sagkart .sagkartbaslik {
   margin-top: 20px;
   position: absolute;
   margin-left: 140px;
 }
-.sagkart .sagkartyazi{
+
+.sagkart .sagkartyazi {
   margin-top: 50px;
   font-family: 'Rubik';
   font-style: normal;
@@ -311,7 +346,8 @@ margin-top: 2em;
   position: absolute;
   margin-left: 140px;
 }
-.sagkart .sagkartlink{
+
+.sagkart .sagkartlink {
   position: absolute;
   font-family: 'Rubik';
   font-style: normal;
@@ -321,7 +357,8 @@ margin-top: 2em;
   margin-left: 140px;
   margin-top: 120px;
 }
-.hizmet-cozumler-buton{
+
+.hizmet-cozumler-buton {
   width: 70%;
   font-size: small;
   font-family: 'Rubik';
@@ -331,16 +368,18 @@ margin-top: 2em;
   padding: 11px;
   transition: .4s;
 }
-.hizmet-cozumler-buton:hover{
-    font-size: small;
-    font-family: 'Rubik';
-    border-color: #f27405;
-    color: white;
-    background-color: #f27405;
-    padding: 11px;
-    transition: .7s;
+
+.hizmet-cozumler-buton:hover {
+  font-size: small;
+  font-family: 'Rubik';
+  border-color: #f27405;
+  color: white;
+  background-color: #f27405;
+  padding: 11px;
+  transition: .7s;
 }
-.cozumlerbaslik{
+
+.cozumlerbaslik {
   margin-top: 4em;
   font-family: 'Rubik';
   font-style: normal;
@@ -348,12 +387,13 @@ margin-top: 2em;
   font-size: 32px;
   line-height: 45px;
   /* or 129% */
-  
+
   text-transform: uppercase;
-  
+
   color: #363D4B;
 }
-.cozumleryazi{
+
+.cozumleryazi {
   margin-top: 30px;
   font-family: 'Rubik';
   font-style: normal;
@@ -361,15 +401,17 @@ margin-top: 2em;
   font-size: 22px;
   line-height: 35px;
   /* or 159% */
-  text-transform: capitalize; 
-  color: #363D4B; 
+  text-transform: capitalize;
+  color: #363D4B;
 }
-.accordion-section .panel-default > .panel-heading {
+
+.accordion-section .panel-default>.panel-heading {
   border: 0;
-  border-bottom: 4px solid #E2DFDF ;
+  border-bottom: 4px solid #E2DFDF;
   background: #fff;
   padding: 0;
 }
+
 .accordion-section .panel-default .panel-title a {
   display: block;
   height: 5px;
@@ -381,9 +423,11 @@ margin-top: 2em;
   color: #363D4B;
   font-size: 1.3rem;
 }
-.accordion-section .panel-default .panel-title a:hover{
+
+.accordion-section .panel-default .panel-title a:hover {
   text-decoration: none;
 }
+
 .accordion-section .panel-default .panel-title a:after {
   font-family: 'FontAwesome';
   font-style: normal;
@@ -393,35 +437,45 @@ margin-top: 2em;
   float: right;
   margin-top: -12px;
 }
+
 .accordion-section .panel-default .panel-title a.collapsed:after {
   content: "\2193";
 }
+
 .accordion-section .panel-default .panel-body {
   font-size: 1.2rem;
 }
-.accordionsag{
+
+.accordionsag {
   margin-top: 90px;
 }
+
 .tik {
   list-style-type: none;
 }
+
 .tik li:before {
   font-weight: bolder;
   color: #2D9BF0;
-  content: "\2713"; /* Unicode değeri tick işaretine karşılık geliyor */
-  margin-right: 20px; /* İstediğiniz boşluk miktarını belirleyebilirsiniz */
+  content: "\2713";
+  /* Unicode değeri tick işaretine karşılık geliyor */
+  margin-right: 20px;
+  /* İstediğiniz boşluk miktarını belirleyebilirsiniz */
 }
-.kurumsal{
+
+.kurumsal {
   margin-top: 4em;
 }
-.kurumsalbaslik{
+
+.kurumsalbaslik {
   font-family: 'Rubik';
   font-style: normal;
   font-weight: 600;
   font-size: 35px;
   text-transform: uppercase;
 }
-.kurumsalyazi{
+
+.kurumsalyazi {
   float: right;
   font-family: 'Rubik';
   font-style: normal;
@@ -430,7 +484,8 @@ margin-top: 2em;
   line-height: 35px;
   color: #363D4B;
 }
-.kurumsal-buton{
+
+.kurumsal-buton {
   margin-top: 64px;
   width: 25%;
   font-size: small;
@@ -441,7 +496,8 @@ margin-top: 2em;
   padding: 11px;
   transition: .4s;
 }
-.kurumsal-buton:hover{
+
+.kurumsal-buton:hover {
   margin-right: 130px;
   font-size: small;
   font-family: 'Rubik';
@@ -451,22 +507,27 @@ margin-top: 2em;
   padding: 11px;
   transition: .7s;
 }
-.fikir{
+
+.fikir {
   margin-top: 14em;
 }
-.fikiryazi{
+
+.fikiryazi {
   font-family: 'Rubik';
   font-style: normal;
   font-weight: 600;
   font-size: 35px;
 }
-.ileti{
+
+.ileti {
   margin-top: 5em;
 }
-.ileti .iletibilgi{
+
+.ileti .iletibilgi {
   padding-top: 20px;
 }
-.ileti .iletibilgi .iletiyazi{
+
+.ileti .iletibilgi .iletiyazi {
   font-family: 'Rubik';
   font-style: normal;
   font-weight: 600;
@@ -475,42 +536,50 @@ margin-top: 2em;
   text-transform: capitalize;
   color: #363D4B;
   margin-top: 0;
-  padding-top: 0; 
-  display: flex; 
+  padding-top: 0;
+  display: flex;
 }
-.iletisim-kart{
+
+.iletisim-kart {
   margin-left: 40px;
   width: 100%;
   height: 380px;
   border-radius: 40px;
 }
+
 @media (max-width: 991px) {
   .iletisim-kart {
     height: 700px;
   }
 }
+
 @media (max-width: 991px) {
   .mesaj {
     margin-left: 23px;
   }
 }
+
 @media (max-width: 991px) {
   .gonder-buton {
     margin-left: 23px;
   }
 }
+
 @media (max-width: 991px) {
   .telnotb {
     width: 90% !important;
   }
+
   .emailtb {
     width: 90% !important;
   }
+
   .isimsoyisimtb {
     width: 90% !important;
   }
 }
-.iletisim-kart .iletisim-kart-baslik{
+
+.iletisim-kart .iletisim-kart-baslik {
   text-align: left;
   margin-top: 35px;
   margin-left: 25px;
@@ -522,18 +591,20 @@ margin-top: 2em;
   text-transform: uppercase;
   color: #FFFFFF;
 }
-.iletisim-kart .iletisim-kart-yazi{
+
+.iletisim-kart .iletisim-kart-yazi {
   text-align: left;
   margin-left: 25px;
 }
 
-.iletisim-kart-kucuk{
+.iletisim-kart-kucuk {
   margin-left: 40px;
   width: 50%;
   height: 680px;
   border-radius: 40px;
 }
-.iletisim-kart-kucuk .iletisim-kart-baslik-kucuk{
+
+.iletisim-kart-kucuk .iletisim-kart-baslik-kucuk {
   text-align: left;
   margin-top: 35px;
   margin-left: 25px;
@@ -545,12 +616,14 @@ margin-top: 2em;
   text-transform: uppercase;
   color: #FFFFFF;
 }
-.iletisim-kart-kucuk .iletisim-kart-yazi-kucuk{
+
+.iletisim-kart-kucuk .iletisim-kart-yazi-kucuk {
   width: 400px;
   text-align: left;
   margin-left: 25px;
 }
-.gonder-buton-kucuk{
+
+.gonder-buton-kucuk {
   margin-left: 23px;
   margin-top: 14px;
   width: 300px;
@@ -560,51 +633,59 @@ margin-top: 2em;
   color: #E2DFDF;
   background-color: #f27405;
   padding: 13px;
-  padding-left: 26px ;
-  padding-right: 26px ;
+  padding-left: 26px;
+  padding-right: 26px;
   transition: .4s;
 }
-.gonder-buton-kucuk:hover{
+
+.gonder-buton-kucuk:hover {
   font-size: small;
   font-family: 'Rubik';
   border-color: #f27405;
   color: #f27405;
   background-color: #E2DFDF;
   padding: 13px;
-  padding-left: 26px ;
-  padding-right: 26px ;
+  padding-left: 26px;
+  padding-right: 26px;
   transition: .7s;
 }
-.isimsoyisimtb{
+
+.isimsoyisimtb {
   margin-left: 22px;
   width: 302px;
 }
-.emailtb{
+
+.emailtb {
   margin-top: 20px;
   margin-left: 22px;
   width: 302px;
 }
-.telnotb{
+
+.telnotb {
   margin-top: 20px;
   margin-left: 22px;
   width: 302px;
 }
-.okudumkabulediyom{
+
+.okudumkabulediyom {
   margin-top: 3px;
   margin-left: 5px;
 }
-.mesaj-kucuk{
+
+.mesaj-kucuk {
   padding-bottom: 150px;
   height: 185px !important;
   margin-top: 20px;
   margin-left: 22px;
   width: 300px !important;
 }
-.mesaj{
+
+.mesaj {
   width: 90% !important;
   height: 185px !important;
 }
-.gonder-buton{
+
+.gonder-buton {
   margin-top: 24px;
   width: 90%;
   font-size: small;
@@ -613,11 +694,12 @@ margin-top: 2em;
   color: #E2DFDF;
   background-color: #f27405;
   padding: 13px;
-  padding-left: 26px ;
-  padding-right: 26px ;
+  padding-left: 26px;
+  padding-right: 26px;
   transition: .4s;
 }
-.gonder-buton:hover{
+
+.gonder-buton:hover {
   margin-right: 130px;
   font-size: small;
   font-family: 'Rubik';
@@ -625,14 +707,16 @@ margin-top: 2em;
   color: #f27405;
   background-color: #E2DFDF;
   padding: 13px;
-  padding-left: 26px ;
-  padding-right: 26px ;
+  padding-left: 26px;
+  padding-right: 26px;
   transition: .7s;
 }
-.cloudfiyat{
-margin-top: 14em;
+
+.cloudfiyat {
+  margin-top: 14em;
 }
-.cloudyazi{
+
+.cloudyazi {
   font-family: 'Rubik';
   font-style: normal;
   font-weight: 600;
@@ -642,12 +726,13 @@ margin-top: 14em;
   text-transform: uppercase;
   color: #363D4B;
 }
-.urun-fiyat{
+
+.urun-fiyat {
   justify-content: center;
   margin-top: 5em;
   width: 330px;
   height: 700px;
-  background: rgba(249,249,249,1);
+  background: rgba(249, 249, 249, 1);
   opacity: 1;
   flex-shrink: 0;
 
@@ -659,7 +744,8 @@ margin-top: 14em;
   overflow: hidden;
   margin-bottom: 80px;
 }
-.hemenbaslat-buton{
+
+.hemenbaslat-buton {
   margin-top: 20px;
   width: 70%;
   margin-left: 16%;
@@ -669,11 +755,12 @@ margin-top: 14em;
   color: #363D4B;
   background-color: #FFFFFF;
   padding: 13px;
-  padding-left: 26px ;
-  padding-right: 26px ;
+  padding-left: 26px;
+  padding-right: 26px;
   transition: .4s;
 }
-.hemenbaslat-buton:hover{
+
+.hemenbaslat-buton:hover {
   margin-right: 130px;
   font-size: medium;
   font-family: 'Rubik';
@@ -681,11 +768,12 @@ margin-top: 14em;
   color: white;
   background-color: #363D4B;
   padding: 13px;
-  padding-left: 26px ;
-  padding-right: 26px ;
+  padding-left: 26px;
+  padding-right: 26px;
   transition: .7s;
 }
-.urun-liste{
+
+.urun-liste {
   margin-top: 20px;
   margin-left: 18%;
   color: #000;
@@ -695,16 +783,18 @@ margin-top: 14em;
   letter-spacing: 2px;
   text-transform: capitalize;
 }
-.urun-liste li{
+
+.urun-liste li {
   padding-top: 10px;
 
 }
-.urun-fiyat-orta{
+
+.urun-fiyat-orta {
   justify-content: center;
   margin-top: 5em;
   width: 330px;
   height: 700px;
-  background: rgba(249,249,249,1);
+  background: rgba(249, 249, 249, 1);
   opacity: 1;
   flex-shrink: 0;
   border-radius: 35px;
@@ -718,79 +808,96 @@ margin-top: 14em;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   overflow: hidden;
 }
+
 @media (max-width: 768px) {
-  .bilgi-buton{
+  .bilgi-buton {
     margin-left: 20%;
   }
-  .hizmet-buton{
+
+  .hizmet-buton {
     margin-top: 40px;
     margin-left: 20%;
   }
-  .neleryeni{
+
+  .neleryeni {
     margin-left: 13px;
   }
-  .cizgi{
+
+  .cizgi {
     width: 332px;
     margin-left: 13px;
   }
-  .solkart{
+
+  .solkart {
     margin-bottom: -60px;
   }
-  .ortakart{
+
+  .ortakart {
     margin-bottom: -60px;
 
   }
-  .sagkart{
 
-  }
-  .cozumlerbaslik{
+  .sagkart {}
+
+  .cozumlerbaslik {
     line-height: 65px;
     letter-spacing: 5px;
   }
-  .cozumleryazi{
+
+  .cozumleryazi {
     line-height: 40px;
   }
-  .hizmet-cozumler-buton{
+
+  .hizmet-cozumler-buton {
     margin-top: 10px;
     margin-left: 20%;
   }
-  .ayricak-buton{
+
+  .ayricak-buton {
     margin-top: 40px;
     margin-left: 20%;
   }
-  .kurumsalbaslik{
+
+  .kurumsalbaslik {
     line-height: 65px;
     letter-spacing: 5px;
   }
-  .kurumsalyazi{
+
+  .kurumsalyazi {
     line-height: 40px;
   }
-  .kurumsal-buton{
+
+  .kurumsal-buton {
     margin-bottom: -150px;
     width: 60%;
     margin-left: 15%;
   }
-  .fikiryazi{
+
+  .fikiryazi {
     line-height: 45px;
     font-weight: 600;
-    
+
   }
-  .iletisim-kart{
+
+  .iletisim-kart {
     margin-bottom: -100px !important;
     margin-top: -50px !important;
-    margin:0px;
+    margin: 0px;
     padding: 0px;
   }
-  .cloudyazi{
+
+  .cloudyazi {
     font-weight: 600;
     line-height: 45px;
     text-transform: uppercase;
     margin-top: -50px !important;
   }
+
   .urun-fiyat {
     margin-top: 40px;
   }
-  .urun-fiyat-orta{
+
+  .urun-fiyat-orta {
     margin-top: -40px !important;
   }
 
